@@ -1,6 +1,8 @@
 svg
 {
 	display : block;
+	position : relative;
+	top : 3em;
 }
 
 
@@ -15,7 +17,7 @@ line.gridline
 svg text
 {
 	fill : white;
-	font-family: Droid Sans;
+	font-family: Droid Sans, sans-serif;
 }
 
 .rand_star
@@ -37,7 +39,6 @@ svg text
 
 .planet text
 {
-	font-family: Droid Sans;
 	fill : white;
 	text-shadow : 1px 1px 1px #222;
 	text-anchor : middle;

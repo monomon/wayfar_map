@@ -4,7 +4,7 @@ body
 	height : 100vh;
 	background : #111111;
 	margin : 0;
-	font-family: Droid Sans;
+	font-family: Droid Sans, sans-serif;
 }
 
 nav
@@ -16,6 +16,8 @@ nav
 	text-align : left;
 	line-height : 1.5em;
 	padding : 5px;
+	position : fixed;
+	top : 0;
 }
 
 nav a
