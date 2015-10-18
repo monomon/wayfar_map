@@ -1,0 +1,51 @@
+svg
+{
+	display : block;
+}
+
+
+line.gridline
+{
+	stroke : white;
+	stroke-dasharray : 5 5;
+	stroke-width : 1;
+	opacity : 0.4;
+}
+
+svg text
+{
+	fill : white;
+	font-family: Droid Sans;
+}
+
+.rand_star
+{
+	fill : #555;
+}
+
+.planet circle
+{
+	cursor : pointer;
+	stroke : none;
+}
+
+.planet circle:hover
+{
+	stroke : green;
+	stroke-width : 1;
+}
+
+.planet text
+{
+	font-family: Droid Sans;
+	fill : white;
+	text-shadow : 1px 1px 1px #222;
+	text-anchor : middle;
+	alignment-baseline : text-before-edge;
+	pointer-events : none;
+}
+
+.axes text
+{
+	text-anchor : middle;
+}

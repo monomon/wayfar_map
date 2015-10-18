@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>wayfar map</title>
+	<script type="text/javascript" src="bower_components/d3/d3.js"></script>
+	<script type="text/javascript" src="bower_components/vanilla-modal/dist/vanilla-modal.js"></script>
+	<script type="text/javascript" src="static/wayfar_map.js"></script>
+	<script type="text/javascript" src="static/wayfar_mapdemo.js"></script>
+	<link rel="stylesheet" type="text/css" href="static/modal.css">
+	<link rel="stylesheet" type="text/css" href="static/svg.css">
+	<link rel="stylesheet" type="text/css" href="static/style.css">
+</head>
+<body>
+<nav role="mainmenu"></nav>
+<svg id="map">
+	<defs>
+		<radialGradient id="planetGradient" fx="30%" fy="30%">
+			<stop offset="5%" stop-color="#ccaaaa" />
+			<stop offset="92%" stop-color="#773322" />
+			<stop offset="99%" stop-color="#888888" />
+		</radialGradient>
+		<radialGradient id="starGradient">
+			<stop offset="5%" stop-color="#ffcc99" />
+			<stop offset="85%" stop-color="#bb8833" />
+		</radialGradient>
+		<radialGradient id="asteroidGradient" fx="30%" fy="30%">
+			<stop offset="5%" stop-color="#bbb" />
+			<stop offset="85%" stop-color="#333" />
+			<stop offset="95%" stop-color="#393939" />
+		</radialGradient>
+		<radialGradient id="warpGradient">
+			<stop offset="5%" stop-color="rgba(85,17,85,0.4)" />
+			<stop offset="85%" stop-color="#a3a" />
+			<stop offset="95%" stop-color="#626" />
+		</radialGradient>
+		<radialGradient id="moonGradient" fx="30%" fy="30%">
+			<stop offset="5%" stop-color="#aaa" />
+			<stop offset="85%" stop-color="#555" />
+			<stop offset="95%" stop-color="#666" />
+		</radialGradient>
+	</defs>
+</svg>
+<!-- template for the modal window -->
+<div class="modal-page" role="dialog">
+	<div class="modal">
+		<div class="modal-inner">
+			<a rel="modal:close">❌</a>
+			<div class="modal-content"></div>
+		</div>
+	</div>
+</div>
+<!-- template for the project dialog -->
+<div id="modal-place" class="modal-dialog">
+<h2></h2>
+<p></p>
+</div>
+
+</body>
+</html>

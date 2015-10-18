@@ -1,0 +1,32 @@
+{
+  "name": "wayfar_map",
+  "main": "wayfar_map.js",
+  "version": "0.0.1",
+  "authors": [
+    "Mois Moshev <mois@monomon.me>"
+  ],
+  "description": "map of the Wayfar 1444 universe",
+  "moduleType": [],
+  "keywords": [
+    "wayfar",
+    "game",
+    "mud",
+    "sci-fi",
+    "javascript",
+    "map",
+    "d3"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "d3": "~3.5.6",
+    "vanilla-modal": "git://github.com/thephuse/vanilla-modal.git"
+  }
+}
